@@ -5,8 +5,8 @@ const Codec = require("@truffle/codec");
 const BN = require("bn.js");
 
 const chromafi = require("@trufflesuite/chromafi");
-const hljsDefineSolidity = require("highlightjs-solidity");
-hljsDefineSolidity(chromafi.hljs);
+// const hljsDefineSolidity = require("highlightjs-solidity");
+// hljsDefineSolidity(chromafi.hljs);
 const chalk = require("chalk");
 
 const panicTable = {
